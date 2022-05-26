@@ -5,6 +5,7 @@ import { useFonts } from 'expo-font';
 import * as React from 'react';
 import { StatusBar } from 'react-native';
 import Home from './src/screens/Home';
+import Product from './src/screens/Product';
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Product" component={Product} />
       </Stack.Navigator>
       <StatusBar style='auto'  />
     </NavigationContainer>

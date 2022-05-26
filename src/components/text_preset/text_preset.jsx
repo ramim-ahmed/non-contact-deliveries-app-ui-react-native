@@ -23,7 +23,7 @@ const SEMIBOLD = {
 }
 
 const MEDIUM = {
-    colors: colors.green,
+    color: colors.green,
     fontFamily: typography.medium
 }
 
